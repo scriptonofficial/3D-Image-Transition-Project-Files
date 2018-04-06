@@ -26,7 +26,7 @@ function init() {
   var slide2 = new Slide(width, height, 'in');
   var l2 = new THREE.ImageLoader();
 	l2.setCrossOrigin('Anonymous');
-	l2.load('https://github.com/scriptonofficial/3D-Image-Transition-Project-Files/blob/master/images/winter.jpg', function(img) {
+	l2.load('https://raw.githubusercontent.com/scriptonofficial/3D-Image-Transition-Project-Files/master/images/spring.png', function(img) {
 		slide2.setImage(img);
 	})
 	
